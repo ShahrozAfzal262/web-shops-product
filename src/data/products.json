@@ -1,15 +1,31 @@
-
 {
   "config": {
-    "order": ["shirts", "bags", "shoes"],
-    "float": ["shoes"],
+    "order": [
+      "shirts",
+      "bags",
+      "shoes"
+    ],
+    "float": [
+      "shoes"
+    ],
     "blurb": {
       "shirts": "Crafted in heavyweight fleece. Cut oversized. Made to last.",
       "bags": "Hand finished. Soft shape. Carries everything."
     },
     "sizes": {
-      "shoes": ["40", "41", "42", "43", "44"],
-      "shirts": ["S", "M", "L", "XL"]
+      "shoes": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "shirts": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
     }
   },
   "products": [
@@ -18,9 +34,14 @@
       "category": "bags",
       "name": "Antique Purse",
       "price": 199,
-      "sizes": ["One size"],
+      "sizes": [
+        "One size"
+      ],
       "variants": [
-        { "label": "Antique Purse", "image": "/images/bags/antique-purse.png" }
+        {
+          "label": "Antique Purse",
+          "image": "/images/bags/antique-purse.png"
+        }
       ]
     },
     {
@@ -28,9 +49,14 @@
       "category": "bags",
       "name": "Beaded Clutch",
       "price": 199,
-      "sizes": ["One size"],
+      "sizes": [
+        "One size"
+      ],
       "variants": [
-        { "label": "Beaded Clutch", "image": "/images/bags/beaded-clutch.png" }
+        {
+          "label": "Beaded Clutch",
+          "image": "/images/bags/beaded-clutch.png"
+        }
       ]
     },
     {
@@ -38,9 +64,14 @@
       "category": "bags",
       "name": "Brown Leather Purse",
       "price": 199,
-      "sizes": ["One size"],
+      "sizes": [
+        "One size"
+      ],
       "variants": [
-        { "label": "Brown Leather Purse", "image": "/images/bags/brown-leather-purse.png" }
+        {
+          "label": "Brown Leather Purse",
+          "image": "/images/bags/brown-leather-purse.png"
+        }
       ]
     },
     {
@@ -48,9 +79,14 @@
       "category": "bags",
       "name": "Coral Bag",
       "price": 199,
-      "sizes": ["One size"],
+      "sizes": [
+        "One size"
+      ],
       "variants": [
-        { "label": "Coral Bag", "image": "/images/bags/coral-bag.png" }
+        {
+          "label": "Coral Bag",
+          "image": "/images/bags/coral-bag.png"
+        }
       ]
     },
     {
@@ -58,9 +94,14 @@
       "category": "bags",
       "name": "Embroidered Purse",
       "price": 199,
-      "sizes": ["One size"],
+      "sizes": [
+        "One size"
+      ],
       "variants": [
-        { "label": "Embroidered Purse", "image": "/images/bags/embroidered-purse.png" }
+        {
+          "label": "Embroidered Purse",
+          "image": "/images/bags/embroidered-purse.png"
+        }
       ]
     },
     {
@@ -68,9 +109,14 @@
       "category": "bags",
       "name": "Green Rattan Purse",
       "price": 199,
-      "sizes": ["One size"],
+      "sizes": [
+        "One size"
+      ],
       "variants": [
-        { "label": "Green Rattan Purse", "image": "/images/bags/green-rattan-purse.png" }
+        {
+          "label": "Green Rattan Purse",
+          "image": "/images/bags/green-rattan-purse.png"
+        }
       ]
     },
     {
@@ -78,9 +124,14 @@
       "category": "bags",
       "name": "Red Handbag",
       "price": 199,
-      "sizes": ["One size"],
+      "sizes": [
+        "One size"
+      ],
       "variants": [
-        { "label": "Red Handbag", "image": "/images/bags/red-handbag.png" }
+        {
+          "label": "Red Handbag",
+          "image": "/images/bags/red-handbag.png"
+        }
       ]
     },
     {
@@ -88,9 +139,14 @@
       "category": "bags",
       "name": "Vintage Leather Purse",
       "price": 199,
-      "sizes": ["One size"],
+      "sizes": [
+        "One size"
+      ],
       "variants": [
-        { "label": "Vintage Leather Purse", "image": "/images/bags/vintage-leather-purse.png" }
+        {
+          "label": "Vintage Leather Purse",
+          "image": "/images/bags/vintage-leather-purse.png"
+        }
       ]
     },
     {
@@ -98,9 +154,17 @@
       "category": "shirts",
       "name": "Black Tshirt",
       "price": 99,
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "variants": [
-        { "label": "Black Tshirt", "image": "/images/shirts/black-tshirt.png" }
+        {
+          "label": "Black Tshirt",
+          "image": "/images/shirts/black-tshirt.png"
+        }
       ]
     },
     {
@@ -108,9 +172,17 @@
       "category": "shirts",
       "name": "Hoodies10",
       "price": 99,
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "variants": [
-        { "label": "Hoodies10", "image": "/images/shirts/hoodies10.png" }
+        {
+          "label": "Hoodies10",
+          "image": "/images/shirts/hoodies10.png"
+        }
       ]
     },
     {
@@ -118,9 +190,17 @@
       "category": "shirts",
       "name": "Hoodies6",
       "price": 99,
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "variants": [
-        { "label": "Hoodies6", "image": "/images/shirts/hoodies6.webp" }
+        {
+          "label": "Hoodies6",
+          "image": "/images/shirts/hoodies6.webp"
+        }
       ]
     },
     {
@@ -128,9 +208,17 @@
       "category": "shirts",
       "name": "Hoodies7",
       "price": 99,
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "variants": [
-        { "label": "Hoodies7", "image": "/images/shirts/hoodies7.avif" }
+        {
+          "label": "Hoodies7",
+          "image": "/images/shirts/hoodies7.avif"
+        }
       ]
     },
     {
@@ -138,9 +226,17 @@
       "category": "shirts",
       "name": "Hoodies8",
       "price": 99,
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "variants": [
-        { "label": "Hoodies8", "image": "/images/shirts/hoodies8.png" }
+        {
+          "label": "Hoodies8",
+          "image": "/images/shirts/hoodies8.png"
+        }
       ]
     },
     {
@@ -148,9 +244,17 @@
       "category": "shirts",
       "name": "Hoodies9",
       "price": 99,
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "variants": [
-        { "label": "Hoodies9", "image": "/images/shirts/hoodies9.png" }
+        {
+          "label": "Hoodies9",
+          "image": "/images/shirts/hoodies9.png"
+        }
       ]
     },
     {
@@ -158,9 +262,17 @@
       "category": "shirts",
       "name": "Navy Tshirt",
       "price": 99,
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "variants": [
-        { "label": "Navy Tshirt", "image": "/images/shirts/navy-tshirt.png" }
+        {
+          "label": "Navy Tshirt",
+          "image": "/images/shirts/navy-tshirt.png"
+        }
       ]
     },
     {
@@ -168,9 +280,17 @@
       "category": "shirts",
       "name": "Red Tshirt",
       "price": 99,
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "variants": [
-        { "label": "Red Tshirt", "image": "/images/shirts/red-tshirt.png" }
+        {
+          "label": "Red Tshirt",
+          "image": "/images/shirts/red-tshirt.png"
+        }
       ]
     },
     {
@@ -178,9 +298,17 @@
       "category": "shirts",
       "name": "White Tshirt",
       "price": 99,
-      "sizes": ["S", "M", "L", "XL"],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "variants": [
-        { "label": "White Tshirt", "image": "/images/shirts/white-tshirt.png" }
+        {
+          "label": "White Tshirt",
+          "image": "/images/shirts/white-tshirt.png"
+        }
       ]
     },
     {
@@ -188,12 +316,30 @@
       "category": "shoes",
       "name": "Luka 5",
       "price": 150,
-      "sizes": ["40", "41", "42", "43", "44"],
+      "sizes": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
       "variants": [
-        { "label": "Black", "image": "/images/shoes/luka-5/black.jpg" },
-        { "label": "Blue", "image": "/images/shoes/luka-5/blue.jpg" },
-        { "label": "Red", "image": "/images/shoes/luka-5/red.jpg" },
-        { "label": "White", "image": "/images/shoes/luka-5/white.jpg" }
+        {
+          "label": "Black",
+          "image": "/images/shoes/luka-5/black.png"
+        },
+        {
+          "label": "Blue",
+          "image": "/images/shoes/luka-5/blue.png"
+        },
+        {
+          "label": "Red",
+          "image": "/images/shoes/luka-5/red.png"
+        },
+        {
+          "label": "White",
+          "image": "/images/shoes/luka-5/white.png"
+        }
       ]
     },
     {
@@ -201,11 +347,26 @@
       "category": "shoes",
       "name": "Tatum 5 Orbit",
       "price": 160,
-      "sizes": ["40", "41", "42", "43", "44"],
+      "sizes": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
       "variants": [
-        { "label": "Green", "image": "/images/shoes/tatum-5-orbit/green.jpg" },
-        { "label": "Grey", "image": "/images/shoes/tatum-5-orbit/grey.jpg" },
-        { "label": "Navy", "image": "/images/shoes/tatum-5-orbit/navy.jpg" }
+        {
+          "label": "Green",
+          "image": "/images/shoes/tatum-5-orbit/green.png"
+        },
+        {
+          "label": "Grey",
+          "image": "/images/shoes/tatum-5-orbit/grey.png"
+        },
+        {
+          "label": "Navy",
+          "image": "/images/shoes/tatum-5-orbit/navy.png"
+        }
       ]
     }
   ]
