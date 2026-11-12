@@ -1,0 +1,12 @@
+{
+  "order": ["shirts", "bags", "shoes"],
+  "float": ["shoes"],
+  "blurb": {
+    "shirts": "Crafted in heavyweight fleece. Cut oversized. Made to last.",
+    "bags": "Hand finished. Soft shape. Carries everything."
+  },
+  "sizes": {
+    "shoes": ["40", "41", "42", "43", "44"],
+    "shirts": ["S", "M", "L", "XL"]
+  }
+}
