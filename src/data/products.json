@@ -1,4 +1,4 @@
-{
+﻿{
   "config": {
     "order": [
       "shirts",
@@ -326,19 +326,19 @@
       "variants": [
         {
           "label": "Black",
-          "image": "/images/shoes/luka-5/black.png"
+          "image": "/images/shoes/luka-5/black.jpg"
         },
         {
           "label": "Blue",
-          "image": "/images/shoes/luka-5/blue.png"
+          "image": "/images/shoes/luka-5/blue.jpg"
         },
         {
           "label": "Red",
-          "image": "/images/shoes/luka-5/red.png"
+          "image": "/images/shoes/luka-5/red.jpg"
         },
         {
           "label": "White",
-          "image": "/images/shoes/luka-5/white.png"
+          "image": "/images/shoes/luka-5/white.jpg"
         }
       ]
     },
@@ -357,15 +357,15 @@
       "variants": [
         {
           "label": "Green",
-          "image": "/images/shoes/tatum-5-orbit/green.png"
+          "image": "/images/shoes/tatum-5-orbit/green.jpg"
         },
         {
           "label": "Grey",
-          "image": "/images/shoes/tatum-5-orbit/grey.png"
+          "image": "/images/shoes/tatum-5-orbit/grey.jpg"
         },
         {
           "label": "Navy",
-          "image": "/images/shoes/tatum-5-orbit/navy.png"
+          "image": "/images/shoes/tatum-5-orbit/navy.jpg"
         }
       ]
     }
