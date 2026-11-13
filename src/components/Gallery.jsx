@@ -1,5 +1,5 @@
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 export default function Gallery({ items = [] }) {
   const scroller = useRef(null);
@@ -270,19 +270,18 @@ export default function Gallery({ items = [] }) {
 
   // Prevent accidental product opening after drag
   const preventClick = (e) => {
-    if (wasDragged.current) {
-      e.preventDefault();
-      e.stopPropagation();
-    }
-  };
-
+  if (wasDragged.current) {
+    e.stopPropagation();
+    e.preventDefault();
+  }
+};
   // Mouse wheel
-  const wheel = (e) => {
-    if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
-      e.preventDefault();
-      e.currentTarget.scrollLeft += e.deltaY;
-    }
-  };
+ const wheel = useCallback((e) => {
+  if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+    e.preventDefault();
+    scroller.current.scrollLeft += e.deltaY;
+  }
+}, []);
 
   const current = shoes[active] || shoes[0];
 
